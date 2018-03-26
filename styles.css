@@ -189,11 +189,15 @@
    box-sizing: border-box;
 }
 .footer{
+   
    background-color: #f1f1f1;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
 
 }
 .footer1{
- position:absolute;
+
  color: gray;
  padding:14px 22px;
  margin-bottom: 1px;
@@ -207,12 +211,14 @@
 }
  
 .footer-lft {
+  
   display: inline-block;
    background-color: #f1f1f1;
    padding: 14px;
 }
 .footer-rt {
-  float:right;
+  
+ float:right;
   display: inline-block;
    background-color: #f1f1f1;
    padding: 14px;
