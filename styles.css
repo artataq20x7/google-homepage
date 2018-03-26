@@ -1,0 +1,246 @@
+ p {
+   
+   margin: auto;
+   
+ }
+ p a{
+   text-decoration: none;
+ }
+ .section {
+   font-family: "verdana";
+   font-size: 12px;
+ 
+ }
+
+ .topnav {
+   background-color: transparent;
+   margin-right: 20px;
+   float: right;
+ }
+
+ .topnav img {
+   vertical-align: middle;
+   border-radius: 50%;
+ }
+
+ /* Style the links inside the navigation bar */
+
+ .topnav a {
+   color: black;
+   text-align: center;
+   padding: 14px 10px;
+   text-decoration: none;
+   font-size: 12px;
+ }
+
+ /* Change the color of links on hover */
+
+ .topnav a:hover {
+   text-decoration: underline;
+   color: black;
+ }
+
+ .container {
+   padding-top: 200px;
+   width: 100%;
+ }
+
+ .logo {
+   width: 100%;
+   margin-bottom: 30px;
+   float: top;
+   text-align: center;
+ }
+
+ textarea {
+   resize: none;
+   display: block;
+   margin: auto;
+   border: none;
+   box-shadow: 0 1px 2px #888888;
+   width: 60%;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   background-image: url(https://img.generation-nt.com/google-micro-logo_0096006401628319.jpg);
+   background-color: transparent;
+   background-repeat: no-repeat;
+   background-size: 30px;
+   background-position: right;
+ }
+
+ [data-tip] {
+   position: relative;
+ }
+
+ [data-tip]:before {
+   content: '';
+   /* hides the tooltip when not hovered */
+   display: none;
+   content: '';
+   border-left: 5px solid transparent;
+   border-right: 5px solid transparent;
+   border-bottom: 5px solid #1a1a1a;
+   position: absolute;
+   top: 30px;
+   right: 250px;
+   z-index: 8;
+   font-size: 0;
+   line-height: 0;
+   width: 0;
+   height: 0;
+ }
+
+ [data-tip]:after {
+   display: none;
+   content: attr(data-tip);
+   position: absolute;
+   top: 35px;
+   right: 200px;
+   padding: 5px 8px;
+   background: #1a1a1a;
+   color: #fff;
+   z-index: 9;
+   font-size: 1em !important;
+   height: 18px;
+   line-height: 18px;
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   white-space: nowrap;
+   word-wrap: normal;
+ }
+
+ [data-tip]:hover:before,
+ [data-tip]:hover:after {
+   display: block;
+ }
+
+ .button {
+   background-color: #f1f1f1;
+   border: none;
+   color: white;
+   padding: 10px 10px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 12px;
+   font-weight: bold;
+   margin: 0 5px 0 20px;
+   -webkit-transition-duration: 0.4s;
+   /* Safari */
+   transition-duration: 0.4s;
+   cursor: pointer;
+ }
+
+ .buttonrow {
+   margin-top: 12px;
+   text-align: center;
+ }
+
+ .left-btn {
+   display: inline-block;
+   max-width: 150px;
+   vertical-align: top;
+   background-color: f1f1f1;
+   color: gray;
+ }
+
+ .right-btn {
+   display: inline-block;
+   max-width: 150px;
+   background-color: f1f1f1;
+   color: gray;
+ }
+
+ @media screen and (max-width: 600px) {
+   .left-btn,
+   .right-btn {
+     max-width: 100%;
+   }
+ }
+
+ .left-btn:hover {
+   background-color: #f1f1f1;
+   color: black;
+   border: none;
+   box-shadow: 0 1px 2px #888888;
+ }
+
+ .right-btn:hover {
+   background-color: #f1f1f1;
+   color: black;
+   border: none;
+   box-shadow: 0 1px 2px #888888;
+ }
+ .text {
+   width: 100%;
+   padding-top: 30px;
+   margin: auto;
+ }
+.bottom { 
+  float:bottom;
+  padding-top: 200px;
+  margin-bottom: 1px ;
+  box-shadow: 1px 0  #e2e0de;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+.footer{
+   background-color: #f1f1f1;
+
+}
+.footer1{
+ color: gray;
+ padding:14px 22px;
+ margin-bottom: 1px;
+   background-color: #f1f1f1;
+     box-shadow: 0 1px  #e2e0de;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+
+   font-size: 16px;
+}
+ 
+.footer-lft {
+  display: inline-block;
+   background-color: #f1f1f1;
+   padding: 14px;
+}
+.footer-rt {
+  float:right;
+  display: inline-block;
+   background-color: #f1f1f1;
+   padding: 14px;
+}
+.footer-lft a {
+   color: gray;
+   text-align: center;
+   padding: 14px 10px;
+   text-decoration: none;
+   font-size: 12px;
+ }
+
+ /* Change the color of links on hover */
+
+ .footer-lft a:hover {
+   text-decoration: underline;
+   color: gray;
+ }
+ .footer-rt a {
+   color: gray;
+   text-align: center;
+   padding: 14px 10px;
+   text-decoration: none;
+   font-size: 12px;
+    
+ }
+
+ /* Change the color of links on hover */
+
+ .footer-rt a:hover {
+   text-decoration: underline;
+   color: gray;
+ }
